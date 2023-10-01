@@ -1,0 +1,5 @@
+<launch>
+
+    <node name= "drone2" pkg="simulation" type="drone2.py" output="screen" />
+
+</launch>

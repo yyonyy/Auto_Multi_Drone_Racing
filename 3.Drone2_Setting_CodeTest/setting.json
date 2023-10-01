@@ -1,0 +1,182 @@
+{
+    "SettingsVersion": 1.2,
+    "SimMode": "Multirotor",
+    "ClockType": "SteppableClock",
+    "ViewMode": "Manual",
+    "Vehicles": {
+        "Drone1": {
+            "VehicleType": "PX4Multirotor",
+            "UseSerial": false,
+            "LockStep": true,
+            "UseTcp": true,
+            "TcpPort": 4560,
+            "ControlPortLocal": 14540,
+            "ControlPortRemote": 14580,
+            "Parameters": {
+                "NAV_RCL_ACT": 0,
+                "NAV_DLL_ACT": 0,
+                "COM_OBL_ACT": 1,
+                "COM_RCL_EXCEPT": 4,
+                "LPE_LAT": 47.641468,
+                "LPE_LON": -122.140165
+            },
+            "AllowAPIAlways": true,
+            "Wind": {
+                "X": 0,
+                "Y": 0,
+                "Z": 0
+            },
+            "RC": {
+                "RemoteControlID": -1,
+                "AllowAPIWhenDisconnected": false
+            },
+            "Sensors": {
+                "Barometer": {
+                    "SensorType": 1,
+                    "Enabled": true,
+                    "PressureFactorSigma": 0.0001825
+                },
+                "Imu": {
+                    "SensorType": 2,
+                    "Enabled": true
+                },
+                "Gps": {
+                    "SensorType": 3,
+                    "Enabled": true
+                },
+                "Magnetometer": {
+                    "SensorType": 4,
+                    "Enabled": true
+                }
+            },
+            "Cameras": {
+                "DepthCamera": {
+                    "CaptureSettings": [
+                        {
+                            "PublishToRos": 1,
+                            "ImageType": 2,
+                            "Width": 480,
+                            "Height": 320,
+                            "FOV_Degrees": 90,
+                            "TargetGamma": 1.5
+                        }
+                    ],
+                    "X": 0.6,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "Roll": 0.0,
+                    "Pitch": 0.0,
+                    "Yaw": 0.0
+                },
+                "RGBCamera": {
+                    "CaptureSettings": [
+                        {
+                            "PublishToRos": 1,
+                            "ImageType": 0,
+                            "Width": 480,
+                            "Height": 320,
+                            "FOV_Degrees": 90,
+                            "TargetGamma": 1.5
+                        }
+                    ],
+                    "X": 0.6,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "Roll": 0.0,
+                    "Pitch": 0.0,
+                    "Yaw": 0.0
+                }
+            },
+            "X": 4,
+            "Y": -4,
+            "Z": 0
+        },
+        "Drone2": {
+            "VehicleType": "PX4Multirotor",
+            "UseSerial": false,
+            "LockStep": true,
+            "UseTcp": true,
+            "TcpPort": 4561,
+            "ControlPortLocal": 14541,
+            "ControlPortRemote": 14581,
+            "Parameters": {
+                "NAV_RCL_ACT": 0,
+                "NAV_DLL_ACT": 0,
+                "COM_OBL_ACT": 1,
+                "COM_RCL_EXCEPT": 4,
+                "LPE_LAT": 47.641468,
+                "LPE_LON": -122.140165
+            },
+            "AllowAPIAlways": true,
+            "Wind": {
+                "X": 0,
+                "Y": 0,
+                "Z": 0
+            },
+            "RC": {
+                "RemoteControlID": -1,
+                "AllowAPIWhenDisconnected": false
+            },
+            "Sensors": {
+                "Barometer": {
+                    "SensorType": 1,
+                    "Enabled": true,
+                    "PressureFactorSigma": 0.0001825
+                },
+                "Imu": {
+                    "SensorType": 2,
+                    "Enabled": true
+                },
+                "Gps": {
+                    "SensorType": 3,
+                    "Enabled": true
+                },
+                "Magnetometer": {
+                    "SensorType": 4,
+                    "Enabled": true
+                }
+            },
+            "Cameras": {
+                "DepthCamera": {
+                    "CaptureSettings": [
+                        {
+                            "PublishToRos": 1,
+                            "ImageType": 2,
+                            "Width": 480,
+                            "Height": 320,
+                            "FOV_Degrees": 90,
+                            "TargetGamma": 1.5
+                        }
+                    ],
+                    "X": 0.6,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "Roll": 0.0,
+                    "Pitch": 0.0,
+                    "Yaw": 0.0
+                },
+                "RGBCamera": {
+                    "CaptureSettings": [
+                        {
+                            "PublishToRos": 1,
+                            "ImageType": 0,
+                            "Width": 480,
+                            "Height": 320,
+                            "FOV_Degrees": 90,
+                            "TargetGamma": 1.5
+                        }
+                    ],
+                    "X": 0.6,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "Roll": 0.0,
+                    "Pitch": 0.0,
+                    "Yaw": 0.0
+                }
+            },
+            "X": 4,
+            "Y": -6,
+            "Z": 0
+        }
+    }
+}
